@@ -14,7 +14,7 @@ Após criar os objetos no banco de dados podemos executar a nossa aplicação co
 
 Salvar um novo Registro.
 
-POST
+POST.
 http://localhost:8090/funcionarios
 
 request
