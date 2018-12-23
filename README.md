@@ -14,7 +14,7 @@ Após criar os objetos no banco de dados podemos executar a nossa aplicação co
 
 Salvar um novo Registro.
 
-[POST]
+POST
 http://localhost:8090/funcionarios
 
 request
@@ -29,7 +29,7 @@ request
 
 Alterar um Registro.
 
-[PUT]
+PUT
 http://localhost:8090/funcionarios/5
 
 request
@@ -43,7 +43,7 @@ request
 
 Consultar todos os registros.
 
-[GET]
+GET
 http://localhost:8090/funcionarios
 
 response
@@ -167,7 +167,7 @@ response
 
 consultar um registro pela sua chave.
 
-[GET]
+GET
 http://localhost:8090/funcionarios/6
 
 response
@@ -187,13 +187,15 @@ response
 
 Excluir um registro pela chave.
 
-[GET]
+GET
 http://localhost:8090/funcionarios/5
+
+
 
 
 Consulta parametrizada criada na interface FuncionarioRepository.
 
-[GET]
+GET
 http://localhost:8090/funcionarios/search/findByNome?nome=maria
 
 response
