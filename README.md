@@ -9,7 +9,7 @@
 ### Executando a aplicação.
 
 
-Após criar os objetos no banco de dados podemos executar a nossa aplicação com o Tomcat Embedded, e então vamos ter os métodos http abaixo.
+Após criar os objetos no banco de dados podemos executar a nossa aplicação com o Tomcat Embedded, e então vamos ter os métodos https abaixo.
 
 
 Salvar um novo Registro.
